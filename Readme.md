@@ -18,3 +18,16 @@ It is designed for **educational purposes only** to raise awareness about the ri
 ---
 
 ## 🛠️ Project Structure
+
+KeystrokeLoggerDemo/
+│
+├── logger.py            # Core keystroke logging logic (text + JSON output)
+├── gui_demo.py          # Tkinter GUI with consent popup and start/stop buttons
+├── visualizer.py        # Optional: analyze keystroke frequency from logs
+│
+├── keylog.txt           # Auto-created text log file (timestamp + keystrokes)
+├── keylog.json          # Auto-created JSON log file (structured keystrokes)
+│
+├── requirements.txt     # Python dependencies (pynput, tkinter, etc.)
+├── README.md            # Documentation with usage, disclaimer, and examples
+└── .gitignore           # (optional) ignore log files or virtual environment
